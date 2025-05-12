@@ -1,1 +1,1 @@
-poison_detector
+sentinel_ai

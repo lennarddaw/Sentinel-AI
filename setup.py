@@ -10,4 +10,8 @@ setup(
         "matplotlib",
         "seaborn"
     ],
+    author="Lennard Gross",
+    description="Developer toolkit to detect poisoned data and AI model risks",
+    license="MIT",
+    include_package_data=True,
 )
