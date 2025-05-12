@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: sentinel-ai
-Version: 0.1.0
+Version: 0.2.0
 Summary: Developer toolkit to detect poisoned data and protect AI models
 Home-page: https://github.com/lennarddaw/Sentinel-AI
 Author: Lennard Gross

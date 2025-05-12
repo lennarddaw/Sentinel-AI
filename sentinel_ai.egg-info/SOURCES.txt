@@ -7,6 +7,10 @@ sentinel_ai.egg-info/SOURCES.txt
 sentinel_ai.egg-info/dependency_links.txt
 sentinel_ai.egg-info/requires.txt
 sentinel_ai.egg-info/top_level.txt
+sentinel_ai/bias/__init__.py
+sentinel_ai/bias/scanner.py
 sentinel_ai/poison/__init__.py
 sentinel_ai/poison/detector.py
 sentinel_ai/poison/utils.py
+sentinel_ai/prompt/__init__.py
+sentinel_ai/prompt/scanner.py
