@@ -1,14 +1,25 @@
 Metadata-Version: 2.4
-Name: sentinel_ai
-Version: 0.1
-Summary: Developer toolkit to detect poisoned data and AI model risks
-Author: Leon Hendrischk
+Name: sentinel-ai
+Version: 0.1.0
+Summary: Developer toolkit to detect poisoned data and protect AI models
+Home-page: https://github.com/lennarddaw/Sentinel-AI
+Author: Lennard Gross
+Author-email: lennarddaw@gmail.com
 License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
 Requires-Dist: pandas
 Requires-Dist: scikit-learn
 Requires-Dist: matplotlib
 Requires-Dist: seaborn
 Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description-content-type
+Dynamic: home-page
 Dynamic: license
 Dynamic: requires-dist
+Dynamic: requires-python
 Dynamic: summary

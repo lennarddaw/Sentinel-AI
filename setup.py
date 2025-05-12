@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="sentinel_ai",
-    version="0.1",
+    name="sentinel-ai",
+    version="0.1.0",
     packages=find_packages(),
     install_requires=[
         "pandas",
@@ -11,7 +11,15 @@ setup(
         "seaborn"
     ],
     author="Lennard Gross",
-    description="Developer toolkit to detect poisoned data and AI model risks",
+    author_email="lennarddaw@gmail.com",
+    description="Developer toolkit to detect poisoned data and protect AI models",
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
+    url="https://github.com/lennarddaw/Sentinel-AI",
     license="MIT",
-    include_package_data=True,
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+    ],
+    python_requires='>=3.7',
 )

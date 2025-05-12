@@ -1,4 +1,5 @@
 README.md
+pyproject.toml
 setup.py
 sentinel_ai/__init__.py
 sentinel_ai.egg-info/PKG-INFO
