@@ -3,7 +3,7 @@ import openai
 
 class PromptScanner:
     def __init__(self, api_key=None):
-        self.api_key = api_key or "sk-..."  # oder aus .env laden
+        self.api_key = api_key or "sk-..."  # Setze hier deinen OpenAI API Key
         openai.api_key = self.api_key
         self.danger_patterns = [
             r"(?i)ignore.*instructions",
@@ -12,7 +12,7 @@ class PromptScanner:
             r"(?i)you are free now",
         ]
 
-    def scan(self, prompt):
+    def scan(self, prompt: str):
         flags = [pattern for pattern in self.danger_patterns if re.search(pattern, prompt)]
         return {
             "injection_detected": bool(flags),
@@ -21,7 +21,7 @@ class PromptScanner:
             "risk": "high" if flags else "low"
         }
 
-    def test_on_model(self, prompt, model="gpt-3.5-turbo"):
+    def test_on_model(self, prompt: str, model="gpt-3.5-turbo"):
         try:
             response = openai.ChatCompletion.create(
                 model=model,

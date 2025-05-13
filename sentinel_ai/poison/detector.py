@@ -16,6 +16,8 @@ class PoisonDetector:
         return self.data
 
     def plot(self, x, y):
-        sns.scatterplot(data=self.data, x=x, y=y, hue="outlier", palette="coolwarm")
+        sns.scatterplot(data=result, x="feature1", y="feature2", hue="outlier", palette="coolwarm")
         plt.title("Outlier Detection Result")
+        plt.xlabel("Feature 1")
+        plt.ylabel("Feature 2")
         plt.show()
